@@ -1,0 +1,15 @@
+#Program coded in R
+#Initialize Matrix bbb which contains the status of a Tic Tac Toe game
+a <- c("O", NA, "X")
+b <- c(NA, "O", "O")
+c <- c("X", NA, "X" )
+
+bbb <- matrix(c(a, b, c), nrow = 3, byrow = TRUE)
+
+# define the double for loop and print the the status of each element of the matrix
+for (i in 1:nrow(ttt)) {
+  for (j in 1:ncol(ttt)) {
+    x <- ttt[i,j]
+    print(paste("On row", i, "and column", j, "the board contains",x))
+  }
+}
