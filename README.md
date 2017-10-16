@@ -1,2 +1,2 @@
-# Learning-Progress-in-R-Python
-#Random exercises/small projects coded in R and Python for learning purposes
+# Programming practice in R
+#Random exercises/small projects coded in R  for learning purposes
